@@ -1,0 +1,169 @@
+.header-class{
+    background-color:rgb(236, 225, 203);
+}
+.logo a{
+    text-decoration: none;
+    color:rgb(105, 94, 80);
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+.logo a:hover{
+    color:rgb(148, 129, 111);
+    }
+.navigation-sec{
+    color:rgb(105, 94, 80);
+    font-family: 'Kanit', sans-serif;
+    font-size:20px;
+}
+button{
+    border: 1px solid  rgb(66, 45, 18);
+    padding:0 30px;
+    background-color: rgb(66, 45, 18);
+    color:rgb(240, 226, 212);
+}
+
+.divisor-div{
+    padding: 20px;
+    background: linear-gradient(3.35rad, #b9ac8e,  #fffbf2 62.18%);
+}
+/* Our creation */
+.images-section{
+    width: 100%;
+    height: 100vh;
+    background-image:  url("/img/cinapon.webp"), url("img/bread.webp") ,url("/img/applecake.webp"), url("/img/cupcake.webp"), url("/img/pancake.webp"), url("/img/tart.webp");
+    background-repeat:no-repeat ,no-repeat ,no-repeat ,no-repeat , no-repeat ,no-repeat;
+    background-size: 33.33% 50vh,33.33% 50vh,33.33% 50vh,33.33% 50vh,33.33% 50vh,33.33% 50vh;
+    background-position: right top ,center top , left top , right bottom ,center bottom , left bottom;
+    position: relative;
+}
+.text-section{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-75%);
+   
+}
+.text-section h3{
+    font-size: 120px;
+    font-weight: 0px;
+    font-family: 'Comforter', cursive;
+    color: #645941;
+
+}
+/* Our story */
+.class-img{
+    background-image: url("/img/os.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+    position:relative;
+   
+}
+.class-text{
+    width: 40%;
+    height: 60vh;
+    background-color: rgb(236, 225, 203);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.class-text h3{
+    font-family: 'Festive', cursive;
+    font-size: 30px;
+    color: rgb(90, 85, 76);
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+.hori-line{
+border-bottom: 3px double rgb(145, 130, 100);
+width: 150px;
+margin:10px 180px 25px 180px;
+}
+.class-text p{
+    text-align: center;
+    margin: 10px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-size: 20px;
+    font-weight: 15px;
+    color: rgb(68, 65, 58);
+}
+
+/* prefooter */
+.prefooter-section{
+    background-color: rgb(97, 73, 54);
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 15px;
+    line-height: 26px;
+    padding:40px;
+    
+}
+.prefooter-container{
+   display:grid;
+   grid-template-columns: auto auto auto auto;
+   color: #fffbf2;
+}
+.hours{
+    grid-column: 1/span 1;
+    color: #decca8;
+    padding: 10px 0;
+}
+.location{
+   grid-column:2/span 3;
+   color: #decca8;
+   padding: 10px 0;
+}
+.prefooter-container  p{
+   padding:0px;
+   margin: 0px;
+   white-space: pre;
+
+}
+.prefooter-container a{
+   text-decoration: none;
+   color: #fffbf2;
+}
+.prefooter-container a:hover{
+   color:#c5c2b9;
+}
+.footer-section{
+   background-color:#423224;
+   padding:15px;
+}
+.footer-section p{
+   color:#999893;
+   font-size: 25px;
+   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+.footer-section a{
+   text-decoration: none;
+   color: #fffbf2;
+   font-size: 27px;
+   padding: 8px;
+}
+.footer-section a:hover{
+   color:#c5c2b9;
+}
+
+.carousel-caption h1{
+    background-color: rgba(3, 3, 3, 0.2);
+    bottom: 250px;
+    font-size: 130px;
+    font-family: 'Festive', cursive;
+}
+.background{
+    background-color: #b9ac8e;
+}
+.card-body{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    color: #ebdec1;
+    background-color: rgb(158, 142, 122);
+}
+.menu-header p{
+    background-color: #b9ac8e;
+    color: #fffbf2;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 50px;
+    margin: 0;
+    text-align:center;
+}
